@@ -1,7 +1,8 @@
 'use strict';
 
 const arr = [1, 2, 3, 4, 5, 6];
-  logArray(arr);
+
+logArray(arr);
 
 /**
  * synchronous code with simple for loop
@@ -30,7 +31,10 @@ function logArrayRecursion(arr) {
   }
 }
 
-
+/**
+ * asynchronous code with functional pattern continuation-passing style
+ * @param {array} arr 
+ */
 function logArray(arr) {
   forEachCps(arr, (elem, index, next) => {
     console.log(elem);
