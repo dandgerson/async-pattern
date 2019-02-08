@@ -201,9 +201,11 @@ module.exports = () => {
     }
   }
 
+// Visit Tree with Continuation-Passing Style
+
   visitTreeCps(
     nestedArray, // tree
-    (value, next) => { // visitor
+    (value, next) => { // visitor declaration
       console.log(value);
       next();
     },
@@ -215,7 +217,10 @@ module.exports = () => {
     if (Array.isArray(tree)) {
       visitNodes(tree, 0, visitor, done);
     } else {
-      visitor(tree, done);
+      visitor(
+        tree, // value parameter
+        done // passing next parameter with function declaration
+      );
     }
   }
   function visitNodes(nodes, index, visitor, done) {
