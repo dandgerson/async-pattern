@@ -1,7 +1,7 @@
 # This is study repo for learning JavaScript async pattern
 
 Walkthrough of many async's articles and exec code from them.
-Also exec examples from TheCodeBarbarian's Book "Mastering Async/Await"
+Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book "Mastering Async/Await"](http://asyncawait.net/) "http://asyncawait.net/"
 
 ## Run-up atricles
 
