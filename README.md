@@ -4,6 +4,11 @@ Walkthrough of many async's articles and exec code from them.
 Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book "Mastering Async/Await"](http://asyncawait.net/) "http://asyncawait.net/"
 
 - [ ] **Mastering Async/Await** "http://asyncawait.net/"
+  - [ ] Async/Await: The Good Parts
+  - [ ] Promises From The Ground Up
+    - [ ] Promises/A+ "https://promisesaplus.com/"
+  - [ ] Async/Await Internals
+  - [ ] Async/Await in the Wild
 
 ## Run-up atricles
 
@@ -59,7 +64,15 @@ Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book
 
 ### TheCodeBarbarian
 
-- [ ] **JSJ 329: Promises, Promise.finally(), and Async/await with Valeri Karpov**
-  " https://devchat.tv/js-jabber/jsj-329-promises-promise-finally-and-async-await-with-valeri-karpov/"
+- [ ] **Common Async/Await Design Patterns in Node.js**
+  "http://thecodebarbarian.com/common-async-await-design-patterns-in-node.js.html"
 - [ ] **The 80/20 Guide to Async/Await in Node.js**
   "http://thecodebarbarian.com/80-20-guide-to-async-await-in-node.js.html"
+- [ ] **JSJ 329: Promises, Promise.finally(), and Async/await with Valeri Karpov**
+  " https://devchat.tv/js-jabber/jsj-329-promises-promise-finally-and-async-await-with-valeri-karpov/"
+
+***
+### Others
+
+- [ ] **Asynchronous Recursion with Callbacks, Promises and Async.** "https://blog.scottlogic.com/2017/09/14/asynchronous-recursion.html"
+- [ ] **List content of a directory with Node.js** "https://code-maven.com/list-content-of-directory-with-nodejs"
