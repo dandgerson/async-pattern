@@ -10,7 +10,7 @@ Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book
   - [ ] Async/Await Internals
   - [ ] Async/Await in the Wild
 
-## Run-up atricles
+## Run-up articles
 
 ### Dr. Axel
 

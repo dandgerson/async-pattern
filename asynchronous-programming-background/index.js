@@ -215,7 +215,7 @@ module.exports = () => {
   console.log('start exec visitTreeCps');
 
   /**
-   * 
+   * Realization Visit Tree with Continuation-Passing Style pattern
    * @param {array} tree - arrayLike
    * @param {function} visitor - callback function
    * @param {function} done - callback function
