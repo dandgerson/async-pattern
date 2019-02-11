@@ -22,7 +22,7 @@ module.exports = () => {
 
   /**
    * synchronous code with functional pattern recursion
-   * @param {array} arr 
+   * @param {array} arr
    */
   function logArrayRecursion(arr) {
     logArrayRec(0, arr);
@@ -40,7 +40,7 @@ module.exports = () => {
 
   /**
    * asynchronous code with functional pattern continuation-passing style
-   * @param {array} arr 
+   * @param {array} arr
    */
   function logArrayCps(arr) {
     forEachCps(
@@ -187,7 +187,7 @@ module.exports = () => {
   /**
    * synchronous function wich iterate tree
    * @param {array} tree
-   * @param {callback function} visitor 
+   * @param {function} visitor 
    * The parameter name - visitor - can explain, than this callback function
    * do action like visitor, then visit the value of the tree
    */
@@ -205,14 +205,21 @@ module.exports = () => {
 
   visitTreeCps(
     nestedArray, // tree
-    (value, next) => { // visitor declaration
+    // visitor declaration
+    (value, next) => { // next is a callback wich calls to init next iteration
       console.log(value);
       next();
     },
-    () => console.log('### Done') // done
+    () => console.log('### Done') // done declaration
   );
   console.log('start exec visitTreeCps');
 
+  /**
+   * 
+   * @param {array} tree - arrayLike
+   * @param {function} visitor - callback function
+   * @param {function} done - callback function
+   */
   function visitTreeCps(tree, visitor, done) {
     if (Array.isArray(tree)) {
       visitNodes(tree, 0, visitor, done);
