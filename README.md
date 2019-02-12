@@ -4,11 +4,12 @@ Walkthrough of many async's articles and exec code from them.
 Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book "Mastering Async/Await"](http://asyncawait.net/) "http://asyncawait.net/"
 
 - [ ] **Mastering Async/Await** "http://asyncawait.net/"
-  - [ ] Async/Await: The Good Parts
-  - [ ] Promises From The Ground Up
-    - [ ] Promises/A+ "https://promisesaplus.com/"
-  - [ ] Async/Await Internals
-  - [ ] Async/Await in the Wild
+    - [x] Equality comparisons and sameness "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness"
+  - [ ] **Async/Await: The Good Parts**
+  - [ ] **Promises From The Ground Up**
+    - [ ] **Promises/A+** "https://promisesaplus.com/"
+  - [ ] **Async/Await Internals**
+  - [ ] **Async/Await in the Wild**
 
 ## Run-up articles
 
@@ -81,7 +82,7 @@ Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book
 
 Why did I create this rep?
 
-- helping restore the context of the subject as soon as possible. This is especialy important when you need to multitask.
-- allows got access it in variety places with different gudgets
+- helping restore the context of the subject as soon as possible. This is especialy important when you need to multitask
+- allows got access it in variety places with different gadgets
 - allows observing the entire structure of the subject
 - make this road-map able helps other
