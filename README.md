@@ -82,7 +82,7 @@ Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book
 
 Why did I create this rep?
 
-- helping restore the context of the subject as soon as possible. This is especialy important when you need to multitask
+- helping restore the context of the subject as soon as possible. This is especially important when you need to multitask
 - allows got access it in variety places with different gadgets
 - allows observing the entire structure of the subject
 - make this road-map able helps other
