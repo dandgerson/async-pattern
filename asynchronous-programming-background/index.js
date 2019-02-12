@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 'use strict';
 
 module.exports = () => {
@@ -182,7 +183,7 @@ module.exports = () => {
 
   const nestedArray = [[1, 2], 3, [ 4, 5], 6];
 
-  visitTree(nestedArray, value => console.log(value))
+  visitTree(nestedArray, value => console.log(value));
 
   /**
    * synchronous function wich iterate tree
@@ -201,7 +202,7 @@ module.exports = () => {
     }
   }
 
-// Visit Tree with Continuation-Passing Style
+  // Visit Tree with Continuation-Passing Style
 
   visitTreeCps(
     nestedArray, // tree
@@ -236,7 +237,7 @@ module.exports = () => {
         nodes[index], // tree
         visitor, // visitor
         () => visitNodes(nodes, ++index, visitor, done) // done
-      )
+      );
     } else {
       done();
     }

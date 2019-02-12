@@ -1,0 +1,27 @@
+{
+  "name": "async-pattern",
+  "version": "1.0.0",
+  "description": "javascript async road map",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandgerson/async-pattern.git"
+  },
+  "keywords": [
+    "javascript",
+    "async"
+  ],
+  "author": "Dmitry G. Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dandgerson/async-pattern/issues"
+  },
+  "homepage": "https://github.com/dandgerson/async-pattern#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.13.0"
+  }
+}
