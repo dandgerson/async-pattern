@@ -16,7 +16,7 @@ module.exports = () => {
     for (var i = 0; i < arr.length; i++) {
       console.log(arr[i]);
     }
-    console.log("### Done");
+    console.log('### Done');
   }
 
   logArrayRecursion(arr);
@@ -27,7 +27,7 @@ module.exports = () => {
    */
   function logArrayRecursion(arr) {
     logArrayRec(0, arr);
-    console.log("### Done");
+    console.log('### Done');
     
     function logArrayRec(index, arr) {
       if (index < arr.length) {
@@ -52,7 +52,6 @@ module.exports = () => {
       },
       () => console.log('### Done')); // done callback declaration
   }
-
   function forEachCps(arr, visitor, done) {
     forEachCpsRec(0, arr, visitor, done);
   }
@@ -62,7 +61,7 @@ module.exports = () => {
         arr[index], // elem
         index, // index
         () => forEachCpsRec(++index, arr, visitor, done) // next
-      )
+      );
     } else {
       done();
     }
