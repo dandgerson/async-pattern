@@ -4,7 +4,7 @@ Walkthrough of many async's articles and exec code from them.
 Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book "Mastering Async/Await"](http://asyncawait.net/) "http://asyncawait.net/"
 
 - [ ] **Mastering Async/Await** "http://asyncawait.net/"
-    - [x] Equality comparisons and sameness "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness"
+  - [x] Equality comparisons and sameness "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness"
   - [ ] **Async/Await: The Good Parts**
   - [ ] **Promises From The Ground Up**
     - [ ] **Promises/A+** "https://promisesaplus.com/"
@@ -17,7 +17,10 @@ Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book
 
 - [x] Asynchronous programming (background) "http://exploringjs.com/es6/ch_async.html"
   - [ ] **Asynchronous programming and continuation-passing style in JavaScript** "http://2ality.com/2012/06/continuation-passing-style.html"
-    - [ ] **Currying versus partial application (with JavaScript code)** "http://2ality.com/2011/09/currying-vs-part-eval.html"
+    - [x] Array.prototype.map() "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map"
+    - [x] Function.prototype.bind() "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind"
+    - [x] Currying and partials "https://javascript.info/currying-partials"
+    - [x] Currying versus partial application (with JavaScript code) "http://2ality.com/2011/09/currying-vs-part-eval.html"
 - [ ] **Promises for asynchronous programming** "http://exploringjs.com/es6/ch_promises.html"
   - [x] Designing APIs for Asynchrony "https://blog.izs.me/2013/08/designing-apis-for-asynchrony"
     - [x] Callbacks, synchronous and asynchronous "https://blog.ometer.com/2011/07/24/callbacks-synchronous-and-asynchronous/"
@@ -73,6 +76,7 @@ Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book
   " https://devchat.tv/js-jabber/jsj-329-promises-promise-finally-and-async-await-with-valeri-karpov/"
 
 ***
+
 ### Others
 
 - [ ] **Asynchronous Recursion with Callbacks, Promises and Async.** "https://blog.scottlogic.com/2017/09/14/asynchronous-recursion.html"
