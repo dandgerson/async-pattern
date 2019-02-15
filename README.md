@@ -15,16 +15,16 @@ Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book
 
 ### Dr. Axel
 
-- [x] Asynchronous programming (background) "http://exploringjs.com/es6/ch_async.html"
+- [x] **Asynchronous programming (background)** "http://exploringjs.com/es6/ch_async.html"
   - [ ] **Asynchronous programming and continuation-passing style in JavaScript** "http://2ality.com/2012/06/continuation-passing-style.html"
     - [x] Array.prototype.map() "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map"
     - [x] Function.prototype.bind() "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind"
     - [x] Currying and partials "https://javascript.info/currying-partials"
     - [x] Currying versus partial application (with JavaScript code) "http://2ality.com/2011/09/currying-vs-part-eval.html"
 - [ ] **Promises for asynchronous programming** "http://exploringjs.com/es6/ch_promises.html"
-  - [x] Designing APIs for Asynchrony "https://blog.izs.me/2013/08/designing-apis-for-asynchrony"
-    - [x] Callbacks, synchronous and asynchronous "https://blog.ometer.com/2011/07/24/callbacks-synchronous-and-asynchronous/"
-  - [x] Promise Anti-patterns "http://taoofcode.net/promise-anti-patterns/"
+  - [x] **Designing APIs for Asynchrony** "https://blog.izs.me/2013/08/designing-apis-for-asynchrony"
+    - [x] **Callbacks, synchronous and asynchronous** "https://blog.ometer.com/2011/07/24/callbacks-synchronous-and-asynchronous/"
+  - [x] **Promise Anti-patterns** "http://taoofcode.net/promise-anti-patterns/"
     - The Collection Kerfuffle - *"it seems the same problem"*
     - [x] Spreading arrays into arguments in JavaScript "http://2ality.com/2011/08/spreading.html"
   - [x] Error Handling in Node.js "https://www.joyent.com/node-js/production/design/errors"
