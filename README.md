@@ -70,7 +70,7 @@ Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book
 
 ***
 
-### TheCodeBarbarian
+## TheCodeBarbarian
 
 ### Continuation Passing Style (CPS)
 ### Promises
@@ -88,8 +88,6 @@ Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book
   - [ ] **Async/Await in the Wild**
 
 ***
-
-[Async JavaScript in Diagram](https://coggle.it/diagram/XG2dPgzosyyL_eMx/t/-/cb1ad3292fff91f9f0469be8a96eee32cf7326a2064332e853aad760f87e7ebf)
 
 ## Others
 
@@ -109,6 +107,8 @@ Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book
 - [ ] **Asynchronous Recursion with Callbacks, Promises and Async.** "https://blog.scottlogic.com/2017/09/14/asynchronous-recursion.html"
 
 ### Async/Await
+
+[Async JavaScript in Diagram](https://coggle.it/diagram/XG2dPgzosyyL_eMx/t/-/cb1ad3292fff91f9f0469be8a96eee32cf7326a2064332e853aad760f87e7ebf)
 
 ## About
 
