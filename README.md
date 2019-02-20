@@ -108,6 +108,8 @@ Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book
 
 ### Async/Await
 
+***
+
 [Async JavaScript in Diagram](https://coggle.it/diagram/XG2dPgzosyyL_eMx/t/-/cb1ad3292fff91f9f0469be8a96eee32cf7326a2064332e853aad760f87e7ebf)
 
 ## About
