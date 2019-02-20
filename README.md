@@ -3,7 +3,7 @@
 Walkthrough of many async's articles and exec code from them.
 Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book "Mastering Async/Await"](http://asyncawait.net/) "http://asyncawait.net/"
 
-## continuation Passing Style (CPS)
+## Continuation Passing Style (CPS)
 
 ### Dr. Axel
 
