@@ -3,15 +3,7 @@
 Walkthrough of many async's articles and exec code from them.
 Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book "Mastering Async/Await"](http://asyncawait.net/) "http://asyncawait.net/"
 
-- [ ] **Mastering Async/Await** "http://asyncawait.net/"
-  - [x] Equality comparisons and sameness "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness"
-  - [ ] **Async/Await: The Good Parts**
-  - [ ] **Promises From The Ground Up**
-    - [ ] **Promises/A+** "https://promisesaplus.com/"
-  - [ ] **Async/Await Internals**
-  - [ ] **Async/Await in the Wild**
-
-## Run-up articles
+## continuation Passing Style (CPS)
 
 ### Dr. Axel
 
@@ -22,6 +14,17 @@ Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book
     - [x] Currying and partials "https://javascript.info/currying-partials"
     - [x] Currying versus partial application (with JavaScript code) "http://2ality.com/2011/09/currying-vs-part-eval.html"
     - [x] JavaScript variable scoping and its pitfalls "http://2ality.com/2011/02/javascript-variable-scoping-and-its.html"
+
+### Others
+
+- [ ] By example: Continuation-passing style in JavaScript "http://matt.might.net/articles/by-example-continuation-passing-style/"
+
+***
+
+## Promises
+
+### Dr. Axel
+
 - [ ] **Promises for asynchronous programming** "http://exploringjs.com/es6/ch_promises.html"
   - [x] **Designing APIs for Asynchrony** "https://blog.izs.me/2013/08/designing-apis-for-asynchrony"
     - [x] **Callbacks, synchronous and asynchronous** "https://blog.ometer.com/2011/07/24/callbacks-synchronous-and-asynchronous/"
@@ -30,10 +33,6 @@ Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book
     - [x] Spreading arrays into arguments in JavaScript "http://2ality.com/2011/08/spreading.html"
   - [x] Error Handling in Node.js "https://www.joyent.com/node-js/production/design/errors"
   - [x] Two additions for the "Promises" chapter "https://groups.google.com/forum/#!topic/exploring-es6/vZDdN8dCx0w/discussion"
-- [ ] **Async functions** "http://exploringjs.com/es2016-es2017/ch_async-functions.html"
-- [ ] **Asynchronous iteration** "http://exploringjs.com/es2018-es2019/ch_asynchronous-iteration.html"
-
-***
 
 ### Iliakan
 
@@ -49,6 +48,13 @@ Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book
     "https://javascript.info/async-await"
 
 ***
+
+## Async/Await
+
+### Dr. Axel
+
+- [ ] **Async functions** "http://exploringjs.com/es2016-es2017/ch_async-functions.html"
+- [ ] **Asynchronous iteration** "http://exploringjs.com/es2018-es2019/ch_asynchronous-iteration.html"
 
 ### Ponyfoo
 
@@ -69,19 +75,23 @@ Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book
 
 ### TheCodeBarbarian
 
-- [ ] **Common Async/Await Design Patterns in Node.js**
-  "http://thecodebarbarian.com/common-async-await-design-patterns-in-node.js.html"
-- [ ] **The 80/20 Guide to Async/Await in Node.js**
-  "http://thecodebarbarian.com/80-20-guide-to-async-await-in-node.js.html"
-- [ ] **JSJ 329: Promises, Promise.finally(), and Async/await with Valeri Karpov**
-  " https://devchat.tv/js-jabber/jsj-329-promises-promise-finally-and-async-await-with-valeri-karpov/"
-
-***
+- [ ] **Common Async/Await Design Patterns in Node.js** "http://thecodebarbarian.com/common-async-await-design-patterns-in-node.js.html"
+- [ ] **The 80/20 Guide to Async/Await in Node.js** "http://thecodebarbarian.com/80-20-guide-to-async-await-in-node.js.html"
+- [ ] **JSJ 329: Promises, Promise.finally(), and Async/await with Valeri Karpov** " https://devchat.tv/js-jabber/jsj-329-promises-promise-finally-and-async-await-with-valeri-karpov/"
+- [ ] **Mastering Async/Await** "http://asyncawait.net/"
+  - [x] Equality comparisons and sameness "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness"
+  - [ ] **Async/Await: The Good Parts**
+  - [ ] **Promises From The Ground Up**
+    - [ ] **Promises/A+** "https://promisesaplus.com/"
+  - [ ] **Async/Await Internals**
+  - [ ] **Async/Await in the Wild**
 
 ### Others
 
 - [ ] **Asynchronous Recursion with Callbacks, Promises and Async.** "https://blog.scottlogic.com/2017/09/14/asynchronous-recursion.html"
 - [ ] **List content of a directory with Node.js** "https://code-maven.com/list-content-of-directory-with-nodejs"
+
+***
 
 ## About
 
