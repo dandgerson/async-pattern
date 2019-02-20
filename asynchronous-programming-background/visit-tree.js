@@ -29,16 +29,7 @@ exports.sync = (tree, visitor) => {
    * @param {function} done - callback function
    */
 exports.asyncCPS = (tree, visitor, done) => {
-  if (Array.isArray(tree)) {
-    iterate(tree, 0, visitor, done);
-  } else {
-    visitor(
-      tree, // value parameter
-      done // passing next parameter with function declaration
-    );
-  }
-
-  function iterate(nodes, index, visitor, done) {
+  const iterate = (nodes, index, visitor, done) => {
     if (index < nodes.length) {
       this.asyncCPS(
         nodes[index], // tree
@@ -48,7 +39,17 @@ exports.asyncCPS = (tree, visitor, done) => {
     } else {
       done();
     }
+  };
+  
+  if (Array.isArray(tree)) {
+    iterate(tree, 0, visitor, done);
+  } else {
+    visitor(
+      tree, // value parameter
+      done // passing next parameter with function declaration
+    );
   }
+
 };
 
 /**
