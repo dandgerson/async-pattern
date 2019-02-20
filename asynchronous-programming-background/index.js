@@ -1,6 +1,8 @@
 /* eslint-disable no-console */
 'use strict';
 
+const cpsHelpers = require('./cps-helpers');
+
 module.exports = () => {
 
   
@@ -44,7 +46,7 @@ module.exports = () => {
    * @param {array} arr
    */
   function logArrayCps(arr) {
-    forEachCps(
+    cpsHelpers.forEachCps(
       arr, // arr
       (elem, index, next) => { // visitor callback declaration
         console.log(elem);
@@ -52,20 +54,7 @@ module.exports = () => {
       },
       () => console.log('### Done')); // done callback declaration
   }
-  function forEachCps(arr, visitor, done) {
-    forEachCpsRec(0, arr, visitor, done);
-  }
-  function forEachCpsRec(index, arr, visitor, done) {
-    if (index < arr.length) {
-      visitor(
-        arr[index], // elem
-        index, // index
-        () => forEachCpsRec(++index, arr, visitor, done) // next
-      );
-    } else {
-      done();
-    }
-  }
+  
 
   // Mapping an array
 
@@ -89,7 +78,8 @@ module.exports = () => {
   }
   function mapCpsRec(index, outArr, inArr, visitor, done) {
     if (index < inArr.length) {
-      // func we declare when calls the mapCps function. Here we just call it with need arguments
+      // here is the function, wich we declare when calls the mapCpsNonDestructive function.
+      // Here we just call it with need arguments
       // elem, index, next
       visitor(inArr[index], index, result => {
         mapCpsRec(++index, outArr.concat(result), inArr, visitor, done);
@@ -212,8 +202,7 @@ module.exports = () => {
     },
     () => console.log('### Done') // done declaration
   );
-  console.log('start exec visitTreeCps');
-
+  
   /**
    * Realization Visit Tree with Continuation-Passing Style pattern
    * @param {array} tree - arrayLike
@@ -241,5 +230,34 @@ module.exports = () => {
       done();
     }
   }
-
+  
+  // visit tree with chs helper functions
+  visitTreeWithCpsHelpers(
+    nestedArray, // tree
+    // visitor declaration
+    (value, next) => { // next is a callback wich calls to init next iteration
+      console.log(value);
+      next();
+    },
+    () => console.log('### Done') // done declaration
+  );
+  
+  /**
+   * visit tree with chs helper functions
+   * @param {array} tree 
+   * @param {function} visitor 
+   * @param {function} done 
+   */
+  function visitTreeWithCpsHelpers(tree, visitor, done) {
+    if (Array.isArray(tree)) {
+      cpsHelpers.forEachCps(
+        tree,
+        (subTree, index, next) => visitTreeWithCpsHelpers(subTree, visitor, next),
+        done
+      );
+    } else {
+      visitor(tree, done);
+    }
+  }
+  
 };
