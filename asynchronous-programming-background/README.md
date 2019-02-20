@@ -6,7 +6,7 @@
 
 ```javascript
   function f() {
-    g(ball => console.log(ball));
+    g(thing => console.log(thing));
   }
 
   function g(actionWithBall) {
