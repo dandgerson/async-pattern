@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 'use strict';
 
-const asyncBackground = require('./asynchronous-programming-background');
+const asyncBackground = require('./dr-axel/cps/asynchronous-programming-background');
 
 const arr = [1, 2, 3, 4, 5, 6];
 const tree = [[1, 2], 3, [4, 5], 6];
