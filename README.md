@@ -93,6 +93,7 @@ Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book
 
 ### Continuation Passing Style (CPS)
 
+- [ ] Continuation-passing style "https://en.wikipedia.org/wiki/Continuation-passing_style"
 - [ ] By example: Continuation-passing style in JavaScript "http://matt.might.net/articles/by-example-continuation-passing-style/"
 - [ ] Callback Heaven: Continuation Passing Style Patterns for JavaScript "https://medium.com/@b.essiambre/continuation-passing-style-patterns-for-javascript-5528449d3070"
 - [ ] Continuation Passing Style by Kyle Simpson (Functional-Light JavaScript, v2) "https://frontendmasters.com/courses/functional-javascript-v2/continuation-passing-style/"
@@ -107,6 +108,9 @@ Also exec examples from [TheCodeBarbarian](http://thecodebarbarian.com/)'s [Book
 - [ ] **Asynchronous Recursion with Callbacks, Promises and Async.** "https://blog.scottlogic.com/2017/09/14/asynchronous-recursion.html"
 
 ### Async/Await
+
+- [ ] **Async/Await: Modern Concurrency In JavaScript** "https://www.youtube.com/watch?v=NsQ2QIrQShU"
+- [ ] **Async + Await in JavaScript, talk from Wes Bos** "https://www.youtube.com/watch?v=DwQJ_NPQWWo"
 
 ***
 
